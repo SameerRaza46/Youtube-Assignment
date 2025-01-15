@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0F0F0F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+/* Navigation Bar */
+.nav {
+    width: 100%;
+    background-color: #0F0F0F;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Left Section */
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.menu-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.youtube-logo {
+    height: 40px;
+}
+
+.country-code {
+    font-size: 12px;
+    color: #aaa;
+    margin-left: 4px;
+}
+
+/* Middle Section (Search Bar) */
+.search-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px 15px;
+    border: #3F3F3F;
+    border-radius: 25px 0 0 25px;
+    background-color: #131212;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-bar::placeholder {
+    color: #aaa;
+}
+
+.search-button {
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button:hover {
+    background-color: #383838;
+}
+
+.search-icon {
+    width: 16px;
+    height: 16px;
+    filter: invert(1);
+}
+
+/* Microphone Icon */
+.microphone-icon {
+    height: 36px;
+    width: 36px;
+    margin-right: 350px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #272727;
+}
+
+/* Right Section */
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.more-options-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.sign-in-button {
+    background-color: #303030;
+    border: 1px solid #4a4a4a;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.sign-in-button:hover {
+    background-color: #383838;
+}
+
+.user-icon {
+    height: 20px;
+    width: 20px;
+    filter: invert(1);
+}
